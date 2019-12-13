@@ -35,5 +35,6 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# REadme Cache
-/README_files/
+
+*.DS_store
+.DS_store

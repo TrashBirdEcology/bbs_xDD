@@ -37,7 +37,7 @@ files <- list.files(here::here("xdd_json"), pattern='.txt', full.names=TRUE)
 bbs_xdd <- suppressWarnings(get_xdd_df(files)) # do not turn off suppresswarnings -- there an rmd bug its annoying..
 ```
 
-We can use various search terms to identify potential uses of the [NABBS](https://www.pwrc.usgs.gov/bbs/) data or results in the literature. For example, here we found `r bbs_xdd %>% dplyr::select(-filename, -searchterm, -highlight) %>% n_distinct()` unique publications which used any of the following phrases exactly: 
+We can use various search terms to identify potential uses of the [NABBS](https://www.pwrc.usgs.gov/bbs/) data or results in the literature. For example, here we found __`r bbs_xdd %>% dplyr::select(-filename, -searchterm, -highlight) %>% n_distinct()`__ unique publications which used any of the following phrases exactly: 
 
 Exacts earch phrase | Number of unique records in xDD/GDD 
 --------------|----

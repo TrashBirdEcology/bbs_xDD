@@ -17,15 +17,15 @@ infrastructure.
 
 We can use various search terms to identify potential uses of the
 [NABBS](https://www.pwrc.usgs.gov/bbs/) data or results in the
-literature. For example, here we found 2487 unique publications which
-used any of the following phrases
+literature. For example, here we found **2487** unique publications
+which used any of the following phrases
 exactly:
 
 | Exacts earch phrase                   | Number of unique records in xDD/GDD |
 | ------------------------------------- | ----------------------------------- |
-| “North American Breeding Bird Survey” | 0                                   |
-| “Breeding Bird Survey”                | 0                                   |
-| “NABBS”                               | 0                                   |
+| “North American Breeding Bird Survey” | 1430                                |
+| “Breeding Bird Survey”                | 2407                                |
+| “NABBS”                               | 93                                  |
 
 ![](README_files/figure-gfm/pubsvtime-1.png)<!-- -->
 

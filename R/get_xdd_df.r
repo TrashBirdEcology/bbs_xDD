@@ -24,7 +24,7 @@ for(i in 1:length(files)){
       # append the associated filename into a new column
       json.df$filename <- fn
       # append the associated search phrase into a new column
-      ind <- str_remove(fn, "xdd_json/")
+      ind <- str_remove(fn, paste0(getwd(), "/xdd_json/"))
       ind <- str_remove(ind , ".txt")
       
       json.df$searchterm <- ind

@@ -25,8 +25,8 @@ source("R/get_xdd_df.R")
   library(rjson)
 
 # plotting themes and settings
-  cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
-  theme_set(ggpubr::theme_classic2())
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+theme_set(ggpubr::theme_classic2())
 ```
 `r print(getwd())`
 ```{r bbs_xdd_import_and_munge, message=FALSE, warning=FALSE,echo=FALSE}
@@ -61,7 +61,7 @@ ggplot(tmp %>% group_by(searchterm, coveryear) %>%
 When we remove the redundancies in the records returned using the abovementioned searches,`r bbs_xdd %>% dplyr::select(-filename, -highlight, -searchterm) %>% n_distinct() + bbs_xdd %>% dplyr::select(-filename, -highlight, -searchterm) %>% filter(is.na(doi))%>% distinct()  %>% nrow() ` remain. 
 
 We can visualize the distribution of  records among unique publishers. Few publications contain the bulk of the records. 
-```{r topjrnls, echo=FALSE}
+```{r topjrnls, echo=FALSE, message=FALSE, warning=FALSE}
 tmp <-  bbs_xdd %>% dplyr::select(-filename, -searchterm) %>% distinct()
 tmp <- bind_rows(tmp, bbs_xdd %>% dplyr::select(-filename, -searchterm)%>% filter(is.na(doi)) %>% distinct())
 
@@ -72,7 +72,7 @@ ggplot(tmp %>% group_by(pubname) %>%
 ```
 
 Viewing the publications with at least 25 unique records:
-```{r topjrnls2, echo=FALSE}
+```{r topjrnls2, echo=FALSE, message=FALSE, warning=FALSE}
 tmp <- bbs_xdd %>% distinct(coveryear, pubname, publisher, title, authors, searchterm)%>% group_by(pubname) %>% 
          summarise(n = n()) %>% filter(n >25)   
 ## the empty pubnames are USGS... so replace

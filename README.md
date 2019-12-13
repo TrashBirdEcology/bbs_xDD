@@ -33,11 +33,7 @@ When we remove the redundancies in the records returned using the
 abovementioned searches,2509 remain.
 
 We can visualize the distribution of records among unique publishers.
-Few publications contain the bulk of the
-    records.
-
-    ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
-
+Few publications contain the bulk of the records.
 ![](README_files/figure-gfm/topjrnls-1.png)<!-- -->
 
 Viewing the publications with at least 25 unique records:

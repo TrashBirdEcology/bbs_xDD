@@ -39,14 +39,13 @@ Few publications contain the bulk of the records.
 Viewing the publications with at least 25 unique records:
 ![](README_files/figure-gfm/topjrnls2-1.png)<!-- -->
 
-## This project relies on the UW Deepdive Infrastructure
-
-[Original branch from which this repository was
-forked](UW-Deepdive-Infrastructure/app-template). Check out [the
+## More Information
+### This project relies on the UW Deepdive Infrastructure
+[See the UW deepdive infrastructure](UW-Deepdive-Infrastructure/app-template) for more details. Check out [the
 wiki](https://github.com/UW-Deepdive-Infrastructure/app-template/wiki)
 for more information on getting started.
 
-## USGS Provisional Software
+### Disclaimer
 
 This software is preliminary or provisional and is subject to revision.
 It is being provided to meet the need for timely best science. The

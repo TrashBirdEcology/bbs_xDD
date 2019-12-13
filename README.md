@@ -3,7 +3,7 @@ Citations
 ================
 Last updated: 2019-12-13
 
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-lightgrey.svg)](https://www.tidyverse.org/lifecycle/#experimental)\[
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-lightgrey.svg)](https://www.tidyverse.org/lifecycle/#experimental)\
 
 ## About
 

@@ -1,5 +1,4 @@
-Using GeoDeepDive (xDD) to Track North American Breeding Bird Survey
-Citations
+Using GeoDeepDive (xDD) to Track North American Breeding Bird Survey Citations in the Grey Literature
 ================
 Last updated: 2019-12-13
 

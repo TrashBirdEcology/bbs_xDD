@@ -21,7 +21,7 @@ literature. For example, here we found **2487** unique publications
 which used any of the following phrases
 exactly:
 
-| Exacts earch phrase                   | Number of unique records in xDD/GDD |
+| Exact search phrase                   | Number of unique records in xDD/GDD |
 | ------------------------------------- | ----------------------------------- |
 | “North American Breeding Bird Survey” | 1430                                |
 | “Breeding Bird Survey”                | 2407                                |

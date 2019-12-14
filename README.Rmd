@@ -1,5 +1,5 @@
 ---
-title: "Using GeoDeepDive (xDD) to Track North American Breeding Bird Survey Citations in the Grey Literature"
+title: "Using GeoDeepDive (xDD) to Track North American Breeding Bird Survey Citations in the White and Grey Literatures"
 date: "Last updated: `r Sys.Date()`"
 output: github_document
 ---

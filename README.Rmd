@@ -89,6 +89,25 @@ ggdotchart(
 ```
 
 
+## Results Files
+Overviews of the results can be found in the [results](/results) folder in this repository.
+```{r write_outputs, include=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
+dir.create("results")
+
+write.csv(bbs_xdd, "results/all_results.csv")
+```
+
+### Total records per publication
+Here is a comprehensive list of all publications with relevant terms (except "BBL"):
+```{r table_pubs, echo=FALSE, warning=FALSE, message=FALSE}
+library(kableExtra)
+bbs_xdd %>% 
+  group_by(pubname) %>% 
+  summarise(count = n()) %>% 
+  na.omit(pubname) %>% 
+  kable(caption = "Number of records (count) per publication name (pubname)", format="markdown") %>%
+  kable_styling()
+````
 
 ## More Information
 ### This project relies on the UW Deepdive Infrastructure

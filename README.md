@@ -290,16 +290,10 @@ Here is a comprehensive list of all publications with relevant terms
 | Zoonoses and Public Health                                                                                                        |     3 |
 
 ## More Information
+This project relies on the [UW Deepdive Infrastructure](UW-Deepdive-Infrastructure/app-template) and was adapted from [@dwief-usgs](https://github.com/dwief-usgs/knowledge-extraction/blob/master/test-notebooks/search-xdd-for-term.ipynb)for more
+details. 
 
-### This project relies on the UW Deepdive Infrastructure
-
-[See the UW deepdive
-infrastructure](UW-Deepdive-Infrastructure/app-template) for more
-details. Check out [the
-wiki](https://github.com/UW-Deepdive-Infrastructure/app-template/wiki)
-for more information on getting started.
-
-### Disclaimer
+## Disclaimer
 
 This software is preliminary or provisional and is subject to revision.
 It is being provided to meet the need for timely best science. The
